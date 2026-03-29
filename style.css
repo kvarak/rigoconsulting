@@ -81,6 +81,11 @@ a:hover { color: #005baa; }
 }
 .nav__brand:hover { color: #0074d9; }
 
+.nav__brand_ico {
+  height: 16px;
+  margin-right: 0.5rem;
+}
+
 .nav__links {
   display: flex;
   list-style: none;
@@ -261,6 +266,13 @@ a:hover { color: #005baa; }
   align-items: center;
   justify-content: center;
   user-select: none;
+}
+
+.about__avatar_ico {
+  flex-shrink: 0;
+  width: 88px;
+  height: 88px;
+  background: #ffffff;
 }
 
 .about__text {
